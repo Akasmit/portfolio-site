@@ -1,26 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon is set at runtime in `src/main.tsx` to ensure correct dev/prod path -->
     <title>Akasmit Bachhav - Full Stack Developer Portfolio</title>
-    <meta name="description" content="Full Stack Developer & Creative Technologist specializing in React, TypeScript, and modern web technologies. View my projects and get in touch." />
+    <meta
+      name="description"
+      content="Full Stack Developer & Creative Technologist specializing in React, TypeScript, and modern web technologies. View my projects and get in touch."
+    />
     <meta name="author" content="Akasmit Bachhav" />
 
-    <meta property="og:title" content="Akasmit Bachhav - Full Stack Developer Portfolio" />
-    <meta property="og:description" content="Full Stack Developer & Creative Technologist specializing in React, TypeScript, and modern web technologies." />
+    <meta
+      property="og:title"
+      content="Akasmit Bachhav - Full Stack Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Full Stack Developer & Creative Technologist specializing in React, TypeScript, and modern web technologies."
+    />
     <meta property="og:type" content="website" />
     <!-- <meta property="og:image" content="https://ibb.co/ynTqk87Y" /> -->
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
     <!-- <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" /> -->
-  <!-- Vite entry - let Vite inject production assets at build time -->
-    <script type="module" crossorigin src="/portfolio-site/assets/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio-site/assets/index.css">
+    <!-- Development/source Vite entry -->
+    <script type="module" src="/src/main.tsx"></script>
   </head>
 
   <body>
-  <div id="root"></div>
+    <div id="root"></div>
   </body>
 </html>

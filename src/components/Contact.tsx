@@ -14,23 +14,23 @@ const Contact = () => {
             <div className="text-4xl mb-2">📧</div>
             <h3 className="font-bold text-lg">Email</h3>
             <a 
-              href="mailto:akasmit@example.com" 
+              href="mailto:akasmitbachhav4999@gmail.com" 
               className="text-primary hover:text-primary/80 transition-colors"
             >
-              akasmit@example.com
+              akasmitbachhav4999@gmail.com
             </a>
           </div>
 
           <div className="text-center space-y-3 p-6 rounded-2xl bg-card border border-border hover-glow transition-all">
             <div className="text-4xl mb-2">💼</div>
             <h3 className="font-bold text-lg">LinkedIn</h3>
-            <a 
-              href="https://linkedin.com" 
-              target="_blank" 
+            <a
+              href="https://in.linkedin.com/in/akasmit"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 transition-colors"
             >
-              /in/akasmitbachhav
+              /in/akasmit
             </a>
           </div>
 
@@ -38,7 +38,7 @@ const Contact = () => {
             <div className="text-4xl mb-2">💻</div>
             <h3 className="font-bold text-lg">GitHub</h3>
             <a 
-              href="https://github.com" 
+              href="https://github.com/Akasmit" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 transition-colors"
