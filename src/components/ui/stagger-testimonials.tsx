@@ -234,7 +234,8 @@ export const StaggerTestimonials: React.FC = () => {
 
   return (
     <div
-      className="relative w-full overflow-hidden bg-muted/30"
+    // bg-muted/30
+      className="relative w-full overflow-hidden"
       style={{ height: 600 }}
     >
       {testimonialsList.map((testimonial, index) => {
