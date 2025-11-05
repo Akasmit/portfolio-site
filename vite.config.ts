@@ -5,7 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/portfolio-site/",
+  // Use repo base only for production builds. During local dev Vite should
+  // serve from root to avoid doubled base paths causing 404s.
+  base: mode === "production" ? "/portfolio-site/" : "/",
   server: {
     host: "::",
     port: 8080,
