@@ -13,7 +13,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/portfolio-site">
+  {/* Use the repo basename in production, but root in dev so local routing works */}
+  <BrowserRouter basename={import.meta.env.PROD ? "/portfolio-site" : "/"}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
