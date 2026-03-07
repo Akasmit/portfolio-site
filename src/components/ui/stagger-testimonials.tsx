@@ -31,18 +31,18 @@ const testimonials = [
     by: "Ramashish, Director at OOEF",
   imgSrc: import.meta.env.BASE_URL + "Shish.png"
   },
-  {
-    tempId: 4,
-    testimonial: "Akasmit seamlessly bridges the gap between design and development. His work is pixel-perfect and performant.",
-    by: "Lisa Anderson, Design Lead at Creative Labs",
-    imgSrc: "https://i.pravatar.cc/150?img=5"
-  },
-  {
-    tempId: 5,
-    testimonial: "The best developer I've worked with. Akasmit's attention to detail and code quality is exceptional.",
-    by: "James Wilson, CTO at TechVentures",
-    imgSrc: "https://i.pravatar.cc/150?img=9"
-  },
+  // {
+  //   tempId: 4,
+  //   testimonial: "Akasmit seamlessly bridges the gap between design and development. His work is pixel-perfect and performant.",
+  //   by: "Lisa Anderson, Design Lead at Creative Labs",
+  //   imgSrc: "https://i.pravatar.cc/150?img=5"
+  // },
+  // {
+  //   tempId: 5,
+  //   testimonial: "The best developer I've worked with. Akasmit's attention to detail and code quality is exceptional.",
+  //   by: "James Wilson, CTO at TechVentures",
+  //   imgSrc: "https://i.pravatar.cc/150?img=9"
+  // },
   // {
   //   tempId: 6,
   //   testimonial: "Akasmit's full-stack expertise saved us months of development time. Absolutely worth every penny.",

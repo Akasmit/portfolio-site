@@ -25,7 +25,7 @@ const About = () => {
           </div>
 
           <div className="flex flex-wrap gap-3 pt-4">
-            {["React", "TypeScript", "Node.js", "Next.js", "Tailwind CSS", "Python"].map((skill) => (
+            {["React", "TypeScript", "Node.js", "Tailwind CSS"," Elixir", "Python"].map((skill) => (
               <span 
                 key={skill}
                 className="px-4 py-2 bg-card border border-border rounded-lg text-sm font-medium hover-glow"
