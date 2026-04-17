@@ -17,6 +17,22 @@ const Projects = () => {
       github: "https://github.com/Akasmit/ooef-LMS"
     },
     {
+      title: "Second-Brain",
+      description: "An AI-powered knowledge management system that automates document ingestion and discovery using a multi-agent architecture, knowledge graphs, and local LLMs for semantic search and multi-step reasoning.",
+      tags: ["Python", "Neo4j", "ChromaDB", "Ollama", "LLMs", "RAG", "Knowledge-Graphs", "Agentic-Workflows"],
+      gradient: "from-secondary to-primary",
+      link: "https://github.com/Akasmit/Driver-Drowsiness-Monitoring-System",
+      github: "https://github.com/Akasmit/Driver-Drowsiness-Monitoring-System"
+    },
+    {
+      title: "DALL·E Image Generator",
+      description: "Full‑stack app to generate images from text prompts using the OpenAI API, with gallery and sharing.",
+      tags: ["React", "Node.js", "OpenAI API", "Cloudinary"],
+      gradient: "from-primary to-secondary",
+      link: "https://github.com/Akasmit/Dall-E",
+      github: "https://github.com/Akasmit/Dall-E"
+    },
+    {
       title: "OOEF Web Admin",
       description: "Administrative dashboard for OOEF with analytics, user management, and content workflows.",
       tags: ["React", "TypeScript", "Redux", "Chart.js"],
@@ -32,22 +48,6 @@ const Projects = () => {
       link: "https://github.com/Akasmit/Movie-Recomender",
       github: "https://github.com/Akasmit/Movie-Recomender"
     },
-    {
-      title: "DALL·E Image Generator",
-      description: "Full‑stack app to generate images from text prompts using the OpenAI API, with gallery and sharing.",
-      tags: ["React", "Node.js", "OpenAI API", "Cloudinary"],
-      gradient: "from-primary to-secondary",
-      link: "https://github.com/Akasmit/Dall-E",
-      github: "https://github.com/Akasmit/Dall-E"
-    },
-    {
-      title: "Driver Drowsiness Monitoring",
-      description: "Computer vision system that detects driver fatigue in real time using eye/face landmarks and alerts.",
-      tags: ["Python", "OpenCV", "Dlib", "Deep Learning"],
-      gradient: "from-secondary to-primary",
-      link: "https://github.com/Akasmit/Driver-Drowsiness-Monitoring-System",
-      github: "https://github.com/Akasmit/Driver-Drowsiness-Monitoring-System"
-    }
   ];
 
   return (
