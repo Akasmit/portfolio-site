@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://akasmit.github.io
+**URL**: https://akasmit.github.io/portfolio-site
 
 ## What technologies are used for this project?
 
